@@ -2,16 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +14,42 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.loginContainer {
+  border-radius: 30px;
+  background-color: #100d0d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginButton {
+  border-radius: 30px;
+  background-color: #1db954;
+  border: none;
+  height: 50%;
+  width: 25%;
+}
+
+.loginButton:hover {
+  background-color: #261f1f;
+  color: #1db954;
+}
+.infoContainer {
+  background-color: #261f1f;
+  color: white;
+  font-size: 24px;
+  border-radius: 10px;
+}
+.playlistCard:hover * {
+  background-color: #6d8174;
+  color: #191414;
+}
+.playlistOwner {
+  color: silver;
+  cursor: pointer;
+}
+.playlistName:hover {
+  color: rgb(140, 175, 135);
+}
+
+.playlistOwner:hover {
+  color: rgb(140, 175, 135);
 }
